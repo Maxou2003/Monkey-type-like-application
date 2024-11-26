@@ -31,7 +31,6 @@ function calculateWPM() {
         let nbWord = 0
         for (let i = 0; i < validExpr.length; i++) {
             nbWord += parseString(validExpr[i])
-            //console.log(`i : ${i} nbword : ${nbWord}, expr : ${validExpr[i]}`)
         }
         return nbWord * 60 / seconds
     }
